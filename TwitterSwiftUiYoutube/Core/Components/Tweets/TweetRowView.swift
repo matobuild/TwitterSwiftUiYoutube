@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TweetRowView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             
             //profile image + user info + tweet
             HStack(alignment: .top, spacing: 12) {
@@ -18,7 +18,7 @@ struct TweetRowView: View {
                     .foregroundColor(Color(.systemBlue))
                 
                 //user infor & tweet caption
-                VStack {
+                VStack(alignment: .leading, spacing: 4) {
                     //user info
                     HStack {
                         Text("Bruce wayne")
@@ -27,6 +27,7 @@ struct TweetRowView: View {
                         Text("@Batman")
                             .foregroundColor(.gray)
                             .font(.caption)
+                        
                         Text("2w")
                             .foregroundColor(.gray)
                             .font(.caption)
@@ -38,9 +39,47 @@ struct TweetRowView: View {
                         .font(.subheadline)
                         .multilineTextAlignment(.leading)
                 }
-                
             }
+            //action buttons
+            
+            HStack {
+                Button {
+                    //action goes here
+                } label: {
+                    Image(systemName: "bubble.left")
+                        .font(.subheadline)
+                }
+                
+                Spacer()
+                
+                    Button {
+                        //action goes here
+                    } label: {
+                        Image(systemName: "arrow.2.squarepath")
+                            .font(.subheadline)
+                    }
+                
+                Spacer()
+                
+                    Button {
+                        //action goes here
+                    } label: {
+                        Image(systemName: "heart")
+                            .font(.subheadline)
+                    }
+                
+                Spacer()
+                
+                    Button {
+                        //action goes here
+                    } label: {
+                        Image(systemName: "bookmark")
+                            .font(.subheadline)
+                    }
+            }
+            .padding()
         }
+        .padding()
     }
 }
 
