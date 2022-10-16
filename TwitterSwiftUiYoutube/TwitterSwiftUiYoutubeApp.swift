@@ -11,7 +11,7 @@ import SwiftUI
 struct TwitterSwiftUiYoutubeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }
