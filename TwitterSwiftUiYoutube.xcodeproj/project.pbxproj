@@ -17,6 +17,7 @@
 		4869074128FC58AB00E00DCA /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869074028FC58AB00E00DCA /* ExploreView.swift */; };
 		4869074328FC58CC00E00DCA /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869074228FC58CC00E00DCA /* NotificationsView.swift */; };
 		4869074528FC58F200E00DCA /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869074428FC58F200E00DCA /* MessagesView.swift */; };
+		4869074928FC5AEE00E00DCA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869074828FC5AEE00E00DCA /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4869074028FC58AB00E00DCA /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		4869074228FC58CC00E00DCA /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		4869074428FC58F200E00DCA /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		4869074828FC5AEE00E00DCA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,8 @@
 		4869073E28FC580600E00DCA /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				4869074628FC5A9300E00DCA /* ViewModels */,
+				4869074728FC5A9C00E00DCA /* VIews */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -195,6 +199,21 @@
 				4869074428FC58F200E00DCA /* MessagesView.swift */,
 			);
 			path = Messages;
+			sourceTree = "<group>";
+		};
+		4869074628FC5A9300E00DCA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4869074728FC5A9C00E00DCA /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				4869074828FC5AEE00E00DCA /* ProfileView.swift */,
+			);
+			path = VIews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4869074528FC58F200E00DCA /* MessagesView.swift in Sources */,
+				4869074928FC5AEE00E00DCA /* ProfileView.swift in Sources */,
 				485FD68028FB220D004ED981 /* ContentView.swift in Sources */,
 				485FD69728FC4D34004ED981 /* TweetRowView.swift in Sources */,
 				485FD69428FB230A004ED981 /* FeedView.swift in Sources */,
@@ -416,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = matomakeapp.TwitterSwiftUiYoutube;
+				PRODUCT_BUNDLE_IDENTIFIER = matomakeapp.TwitterSwiftUiYoutubePractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,7 +465,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = matomakeapp.TwitterSwiftUiYoutube;
+				PRODUCT_BUNDLE_IDENTIFIER = matomakeapp.TwitterSwiftUiYoutubePractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
