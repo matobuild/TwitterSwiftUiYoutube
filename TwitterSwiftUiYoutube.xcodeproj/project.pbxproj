@@ -18,6 +18,7 @@
 		4869074328FC58CC00E00DCA /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869074228FC58CC00E00DCA /* NotificationsView.swift */; };
 		4869074528FC58F200E00DCA /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869074428FC58F200E00DCA /* MessagesView.swift */; };
 		4869074928FC5AEE00E00DCA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869074828FC5AEE00E00DCA /* ProfileView.swift */; };
+		48A43C6D29013144002B9FE5 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A43C6C29013144002B9FE5 /* TweetFilterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4869074228FC58CC00E00DCA /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		4869074428FC58F200E00DCA /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		4869074828FC5AEE00E00DCA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		48A43C6C29013144002B9FE5 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		4869074628FC5A9300E00DCA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				48A43C6C29013144002B9FE5 /* TweetFilterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A43C6D29013144002B9FE5 /* TweetFilterViewModel.swift in Sources */,
 				4869074528FC58F200E00DCA /* MessagesView.swift in Sources */,
 				4869074928FC5AEE00E00DCA /* ProfileView.swift in Sources */,
 				485FD68028FB220D004ED981 /* ContentView.swift in Sources */,
