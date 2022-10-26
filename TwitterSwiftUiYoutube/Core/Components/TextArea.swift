@@ -28,7 +28,7 @@ struct TextArea: View {
             }
             
             TextEditor(text: $text)
-//            mato edit
+//            add opacity to prevent TextEditor from blocking the placeholder
                 .opacity(text.isEmpty ? 0.25 : 1)
                 .padding(4)
                 
