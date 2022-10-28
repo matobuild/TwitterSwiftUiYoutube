@@ -16,24 +16,7 @@ struct LoginView: View {
         VStack {
             
             // header View
-            VStack(alignment: .leading) {
-                HStack{
-                    Spacer()
-                }
-                
-                Text("Hello.")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                
-                Text("Welcome Back")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-            }
-            .frame(height: 260)
-            .padding(.leading)
-            .background(Color(.systemBlue))
-            .foregroundColor(.white)
-            .clipShape(RoundedShape(corners: [.bottomRight]))
+          AuthHeaderView(title1: "Hello", title2: "Welcome back")
             
             VStack(spacing: 40) {
                 CustomInputField(imageName: "envelope"
@@ -43,7 +26,7 @@ struct LoginView: View {
                 CustomInputField(imageName: "lock"
                                  , placeholderText: "Password"
                                   , text: $password)
-            } 
+            }
             .padding(.horizontal, 32)
             .padding(.top, 44)
             
