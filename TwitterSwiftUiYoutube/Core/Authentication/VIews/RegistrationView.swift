@@ -32,9 +32,11 @@ struct RegistrationView: View {
                                  , placeholderText: "Full name"
                                  , text: $fullname)
                 
-                CustomInputField(imageName: "lock"
-                                 , placeholderText: "Password"
-                                  , text: $password)
+                
+                CustomInputField(imageName: "lock",
+                                 placeholderText: "Password",
+                                 isSecureField: true,
+                                 text: $password)
             }
             
             .padding(32)
@@ -42,6 +44,7 @@ struct RegistrationView: View {
             Button {
                 viewModel.register(withEmail: email,
                                    password: password,
+                                   fullname: fullname,
                                    username: username)
             } label: {
                 Text("Sign Up")
