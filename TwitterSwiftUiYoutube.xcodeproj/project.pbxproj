@@ -39,6 +39,7 @@
 		48A43C772903CADE002B9FE5 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A43C762903CADE002B9FE5 /* SideMenuView.swift */; };
 		48A43C7B2903CB17002B9FE5 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A43C7A2903CB17002B9FE5 /* SideMenuViewModel.swift */; };
 		48A43C7D2904EFE2002B9FE5 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A43C7C2904EFE2002B9FE5 /* UserStatsView.swift */; };
+		48D28DB029153CE2003002C1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D28DAF29153CE2003002C1 /* User.swift */; };
 		48E3D6F42906C42300412781 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3D6F32906C42300412781 /* NewTweetView.swift */; };
 		48E3D6F62906C62B00412781 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3D6F52906C62B00412781 /* TextArea.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 		48A43C762903CADE002B9FE5 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		48A43C7A2903CB17002B9FE5 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 		48A43C7C2904EFE2002B9FE5 /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		48D28DAF29153CE2003002C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		48E3D6F32906C42300412781 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
 		48E3D6F52906C62B00412781 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,6 +193,7 @@
 		485FD69028FB229E004ED981 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				48D28DAF29153CE2003002C1 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 				48A43C7229023524002B9FE5 /* UserRowView.swift in Sources */,
 				486FDEAA290970D20062C2DF /* LoginView.swift in Sources */,
 				486FDEAC290970E10062C2DF /* RegistrationView.swift in Sources */,
+				48D28DB029153CE2003002C1 /* User.swift in Sources */,
 				48E3D6F42906C42300412781 /* NewTweetView.swift in Sources */,
 				485839F6290B688D001323BA /* AuthViewModel.swift in Sources */,
 				486FDEAE290975310062C2DF /* RoundedShape.swift in Sources */,

@@ -5,10 +5,23 @@
 //  Created by kittawat phuangsombat on 2022/11/4.
 //
 
-import Foundation
+import Firebase
+import FirebaseFirestoreSwift
 
-struct userService {
+struct UserService {
+    
     func fetchUser(withUid uid: String) {
-        print("DEBUG: fetch user info..")
+        Firestore.firestore().collection("users")
+            .document(uid)
+            .getDocument { snapshot, _ in
+                guard let snapshot = snapshot else { return }
+                
+                guard let user = try? snapshot.data(as: User.self) else { return }
+                
+                print("DEBUG: username is \(user.username)")
+                print("DEBUG: fullname is \(user.fullname)")
+                print("DEBUG: email is \(user.email)")
+                print("DEBUG: profileURL is \(user.profileImageUrl)")
+            }
     }
 }
