@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48102D8A29177F6E00326AD2 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48102D8929177F6E00326AD2 /* ExploreViewModel.swift */; };
 		4811532A29057AC9007AEFDC /* SideMenuOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4811532929057AC9007AEFDC /* SideMenuOptionRowView.swift */; };
 		485839F6290B688D001323BA /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485839F5290B688D001323BA /* AuthViewModel.swift */; };
 		485FD67E28FB220D004ED981 /* TwitterSwiftUiYoutubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485FD67D28FB220D004ED981 /* TwitterSwiftUiYoutubeApp.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48102D8929177F6E00326AD2 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		4811532929057AC9007AEFDC /* SideMenuOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionRowView.swift; sourceTree = "<group>"; };
 		485839F5290B688D001323BA /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		485FD67A28FB220D004ED981 /* TwitterSwiftUiYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterSwiftUiYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -335,6 +337,7 @@
 		48A43C6F290234BB002B9FE5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				48102D8929177F6E00326AD2 /* ExploreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				485FD69728FC4D34004ED981 /* TweetRowView.swift in Sources */,
 				485FD69428FB230A004ED981 /* FeedView.swift in Sources */,
 				4870878E290E2C14009A2226 /* ProfilePhotoSelectorView.swift in Sources */,
+				48102D8A29177F6E00326AD2 /* ExploreViewModel.swift in Sources */,
 				48A43C772903CADE002B9FE5 /* SideMenuView.swift in Sources */,
 				485FD67E28FB220D004ED981 /* TwitterSwiftUiYoutubeApp.swift in Sources */,
 				4869074128FC58AB00E00DCA /* ExploreView.swift in Sources */,
