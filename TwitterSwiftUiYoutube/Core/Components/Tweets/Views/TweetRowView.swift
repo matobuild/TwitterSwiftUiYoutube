@@ -3,7 +3,7 @@
 //  TwitterSwiftUiYoutube
 //
 //  Created by kittawat phuangsombat on 2022/10/16.
-//
+// 6.19
 
 import SwiftUI
 import Kingfisher
@@ -72,6 +72,8 @@ struct TweetRowView: View {
                 Spacer()
                 
                     Button {
+                        viewModel.tweet.didLike ?? false
+                        ? viewModel.unlikeTweet() :
                         viewModel.likeTweet()
                     } label: {
                         Image(systemName: viewModel.tweet.didLike ?? false ? "heart.fill" : "heart")
